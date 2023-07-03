@@ -1,0 +1,16 @@
+<html>
+<script type="text/javascript" >
+function printvalue()
+{
+var a=parseInt(document.getElementById("t1").value);
+var i;
+for(i=1;i<=10;i++)
+document.write(a+"x"+i+"="+a*i+"</br>");
+}
+</script>
+<body>
+<form name="f1" >
+a:<input type="text" id="t1" />
+<input type="submit" value="print" onclick="printvalue()" />
+</form>
+</body>

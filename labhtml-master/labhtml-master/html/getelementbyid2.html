@@ -1,0 +1,17 @@
+<html>
+<script type="text/javascript" >
+function age()
+{
+var age=document.getElementById("t1").value;
+if(age>18)
+window.alert("greater then 18");
+else
+window.alert("less then 18"); 
+}
+</script>
+<body>
+<form name="f1" >
+age:<input type="text" id="t1" />
+<input type="submit" value="print" onclick="age()" />
+</form>
+</body>

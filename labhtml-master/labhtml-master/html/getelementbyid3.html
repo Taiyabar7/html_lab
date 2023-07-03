@@ -1,0 +1,17 @@
+<html>
+<script type="text/javascript" >
+function printvalue()
+{
+var a=parseInt(document.getElementById("t1").value);
+var b=parseInt(document.getElementById("t2").value);
+var c=a+b;
+window.alert(c);
+}
+</script>
+<body>
+<form name="f1" >
+a:<input type="text" id="t1" />
+b:<input type="text" id="t2" />
+<input type="submit" value="print" onclick="printvalue()" />
+</form>
+</body>
